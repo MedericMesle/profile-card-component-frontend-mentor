@@ -42,3 +42,63 @@ body{
 	margin: -50px auto -30px auto;
 	border: 5px solid #FFFFFF;
 }
+
+.avatar-sec img{
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+.card-main{
+	margin-top: 54px;
+	margin-bottom: -75px;
+	height: 250px;
+	line-height: 1.8rem;
+}
+
+.name{
+	font-family: Kumbh Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.age{
+	font-family: Kumbh Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.city{
+	font-family: Kumbh Sans;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 14px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.social-container{
+	width: 249px;
+	height: 40px;
+	left: 47px;
+	top: 310px;
+	padding-top: 22px;
+	padding-right: 40px;
+	border-top: 1px solid hsl(0, 10%, 88%);
+	padding-left: 40px;
+	margin-top: 23px;
+	display:  flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
