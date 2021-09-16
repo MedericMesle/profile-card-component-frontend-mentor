@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	font-size: 18px;
+	color:  hsl(229, 23%, 23%);
+}
+
+.main{
+	background-color: hsl(185, 75%, 39%);
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card{
+	background: #FFFFFF;
+	text-align: center;
+	width: 350px;
+	height: 374px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.upper-card{
+	height: 140px;
+	width: 350px;
+	background: url(images/bg-pattern-card.svg);
+	background-size: cover;
+}
+
+.avatar{
+	width: 96px;
+	height: 96px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: -50px auto -30px auto;
+	border: 5px solid #FFFFFF;
+}
