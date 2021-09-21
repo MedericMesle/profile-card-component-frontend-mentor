@@ -11,6 +11,7 @@ body{
 }
 
 .main{
+	background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
 	background-color: hsl(185, 75%, 39%);
 	min-height: 100vh;
 	display: flex;
@@ -87,18 +88,26 @@ body{
 }
 
 .social-container{
-	width: 350px;
+	width: 249px;
 	height: 40px;
 	left: 47px;
 	top: 310px;
-	padding-top: 22px;
-	padding-right: 40px;
+	padding-top: 24px;
+	padding-right: 54px;
 	border-top: 1px solid hsl(0, 10%, 88%);
-	padding-left: 40px;
+	padding-left: 47px;
 	margin-top: 23px;
 	display:  flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.h4{
+	font-family: Kumbh Sans;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 18.11px;
+	align-items: center;
 }
 
 
